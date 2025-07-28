@@ -1,16 +1,9 @@
 
-// Database configuration for MongoDB connection
-// This file contains the MongoDB connection settings
-
 const config = {
-  // MongoDB connection string
-  // Replace with your actual MongoDB connection string
-  mongoUri: process.env.MONGO_URI || 'mongodb://localhost:27017/wanzofc_shop',
+  mongoUri: process.env.MONGO_URI || 'mongodb+srv://zanssxploit:pISqUYgJJDfnLW9b@cluster0.fgram.mongodb.net/wanzofc_shop?retryWrites=true&w=majority',
   
   // Database name
   dbName: 'wanzofc_shop',
-  
-  // Connection options
   options: {
     useNewUrlParser: true,
     useUnifiedTopology: true,
